@@ -1,0 +1,29 @@
+{
+  "name": "deepmail-server",
+  "version": "1.0.0",
+  "description": " DeepMail Server Front service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ilya Derets",
+  "repository": "https://github.com/deepframe/deepframe-mail-front-service",
+  "license": "ISC",
+  "dependencies": {
+    "agenda": "^1.0.3",
+    "body-parser": "^1.17.2",
+    "connect-multiparty": "^2.0.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "express-jwt": "^5.3.0",
+    "jsonwebtoken": "^7.4.1",
+    "lodash": "^4.17.4",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0"
+  }
+}
